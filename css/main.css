@@ -1,0 +1,37 @@
+header,
+main,
+footer {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+#type-worker
+{
+    margin-left: 20px;
+    color: white;
+}
+#credits li,
+#credits li a {
+    color: black;
+}
+
+#credits li a {
+    font-weight: bold;
+}
+
+.footer-copyright .container,
+.footer-copyright .container a {
+    color: black;
+}
+.select-wrapper
+{
+    display: flex;
+    align-items: center;
+}
+
